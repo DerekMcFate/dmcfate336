@@ -1,0 +1,22 @@
+body {
+    background-color:black;
+    color:gray;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a:hover {
+   border-bottom:2px orange solid;
+   font-size: 2em;
+   transition: .9s;
+}
+
+#me, #welcomeText {
+    float:left;
+}
+
+footer {
+    clear: left;
+}
