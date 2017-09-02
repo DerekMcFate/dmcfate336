@@ -13,6 +13,11 @@ nav a:hover {
    transition: .9s;
 }
 
+nav b {
+    border-bottom: 3px blue solid;
+    font-size: 3em;
+}
+
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 4em;
