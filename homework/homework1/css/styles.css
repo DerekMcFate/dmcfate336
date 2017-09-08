@@ -21,14 +21,14 @@ footer {
 nav {
     text-align:center;
     font-size: 1.5em;
-    width: 100%;
+    width: 100;
 }
 
 nav a:hover {
    text-align:right;
    background-color:blue;
    color:white;
-   opacity:1;
+   opacity:.5;
 }
 
 nav b {
