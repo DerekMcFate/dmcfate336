@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-family: serif;
+    letter-spacing: 1px;
+    top: 50%;
+    left: 25%;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+h1 span {
+    background-color: black;
+}
+
+#button {
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    position: relative;
+}
+
+.items {
+    position: absolute;
+}
+
+.photo {
+    position: absolute;
+}
