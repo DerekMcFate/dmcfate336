@@ -46,15 +46,15 @@ function generate() {
                 if($habitat == 0) {
                 switch($itemChance) {
                     case 0:
-                        echo '<img class="photo" src="img/tree.png" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/tree.png" alt="tree"style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                     case 1:
-                        echo '<img class="photo" src="img/lake.png" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/lake.png" alt="lake" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                     case 2:
-                        echo '<img class="photo" src="img/pinetree.png" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/pinetree.png" alt="pinetree" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                 }
@@ -62,15 +62,15 @@ function generate() {
                 else if($habitat == 1) {
                     switch($itemChance) {
                     case 0:
-                        echo '<img class="photo" src="img/cactus.png" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/cactus.png" alt="cactus" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                     case 1:
-                        echo '<img class="photo" src="img/cactus.png" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/cactus.png" alt="cactus" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                     case 2:
-                        echo '<img class="photo" src="img/oasis.png" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/oasis.png" alt="oasis" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                 }
@@ -78,15 +78,15 @@ function generate() {
                 else {
                     switch($itemChance) {
                     case 0:
-                        echo '<img class="photo" src="img/snowman.png" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/snowman.png" alt="snowman" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                     case 1:
-                        echo '<img class="photo" src="img/pinetree.png" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/pinetree.png" alt="pinetree" style="width:140px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                     case 2:
-                        echo '<img class="photo" src="img/snowflake.png" style="width:70px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
+                        echo '<img class="photo" src="img/snowflake.png" alt="snowflake" style="width:70px;top:'.$i.'px;left:'.$j.'px;z-index:'.$z.'px;"/>';
                         $z++;
                         break;
                 }
