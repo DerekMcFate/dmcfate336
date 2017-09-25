@@ -1,0 +1,43 @@
+#name{
+    position:center;
+    text-align: center;
+    width: 500px;
+    border-style: double;
+    border-color:black;
+    box-sizing: 2px;
+    font-family:Caflisch Script Pro, cursive;
+
+}
+
+#players
+{
+    color:black;
+    font-size:25px;
+    font-family:Caflisch Script Pro, cursive;
+
+
+}
+
+#bottom{
+    color: grey;
+    font-size:12px;
+    font-family:Trebuchet MS, sans-serif;
+}
+
+#winner{
+    text-align:center;
+    font-size: 50px;
+    color: black;
+    font-weight:bold;
+}
+#scores{
+    color:black;
+    font-size:30px;
+    text-align:right;
+    display:inline-block;
+}
+input[type=submit]{
+    border-radius:30px;
+    padding:5px 15px;
+    -webkit-border-radius: 5px;
+}

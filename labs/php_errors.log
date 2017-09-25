@@ -7,3 +7,46 @@
 [08-Sep-2017 19:59:40 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/dmcfate336/labs/lab2/index.php on line 19
 [08-Sep-2017 19:59:40 UTC] PHP Stack trace:
 [08-Sep-2017 19:59:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab2/index.php:0
+[22-Sep-2017 19:53:02 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, string given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:02 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:02 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:02 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, string given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:02 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:02 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:02 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, string given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:02 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:02 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:02 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, string given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:02 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:02 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:02 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, string given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:02 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:02 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:26 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:26 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:26 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:26 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:26 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:26 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:26 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:26 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:26 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:26 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:26 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:26 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 19:53:26 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 11
+[22-Sep-2017 19:53:26 UTC] PHP Stack trace:
+[22-Sep-2017 19:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[22-Sep-2017 19:53:26 UTC] PHP   2. array_pop() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:11
+[22-Sep-2017 21:47:19 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/dmcfate336/labs/lab3/totalPoints.php on line 11
+[22-Sep-2017 21:47:19 UTC] PHP Stack trace:
+[22-Sep-2017 21:47:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab3/totalPoints.php:0
