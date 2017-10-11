@@ -9,15 +9,28 @@ if(isset($_GET['keyword'])) {
     
     if (!empty($_GET['category'])) {  //User selected a category
              
+             $keyword = $_GET['category'];
             
+        } else {
+            $keyword = $_GET['keyword'];
         }
     
     if(isset($_GET['layout'])) {
-        $imageURLs = getImageURLs($_GET['keyword'], $_GET['layout']);
+        $imageURLs = getImageURLs($keyword, $_GET['layout']);
     } else {
-        $imageURLs = getImageURLs($_GET['keyword']);
+        $imageURLs = getImageURLs($keyword);
     }
     $backgroundImage = $imageURLs[array_rand($imageURLs)];
+    
+    function checkIfSelected($option) {
+        
+        if ($option == $_GET['category']) {
+            
+            return "selected";
+            
+        }
+        
+    }
 }
 ?>
 
@@ -40,16 +53,16 @@ if(isset($_GET['keyword'])) {
     <body>
         
         <form>
-            <input type="text" name="keyword" placeholder="Keyword"/>
+            <input type="text" name="keyword" placeholder="Keyword" value="<?=$_GET['keyword']?>"/>
             
-            <input type="radio" id="lHorizontal" name="layout" value="horizontal"><label for="lhorizontal"> Horizontal </label>
-            <input type="radio" id="lVertical" name="layout" value="vertical"><label for="lvertical"> Vertical </label>
+            <input type="radio" id="lHorizontal" name="layout" value="horizontal" <?=($_GET['layout']=='horizontal')?"checked":""?>><label for="lhorizontal"> Horizontal </label>
+            <input type="radio" id="lVertical" name="layout" value="vertical" <?=($_GET['layout']=='vertical')?"checked":""?>><label for="lvertical"> Vertical </label>
             
             <select name="category">
                 <option value="">Select One</option>
-                <option value="ocean">Sea</option>
-                <option value="forest">Forest</option>
-                <option value="mountain">Mountain</option>
+                <option <?=checkIfSelected('ocean')?> value="ocean">Sea</option>
+                <option <?=checkIfSelected('Forest')?> value="forest">Forest</option>
+                <option <?=checkIfSelected('Mountain')?> value="mountain">Mountain</option>
                 
                 
             </select>

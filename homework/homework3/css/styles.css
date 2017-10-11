@@ -1,0 +1,50 @@
+body {
+    min-height: 100%;
+    background-color: #b9b9b9;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 span, h2 span {
+    background-color: white;
+    border-style: double;
+    border-color: black;
+}
+
+h2 {
+    font-family: 'Manuale', serif;
+    color: purple;
+}
+
+h3 {
+    color: green;
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    color:red;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#foot {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+}
+
+#buddy {
+    display: block;
+    margin: auto;
+    width: 194px;
+    height: 203px;
+}
+
+#question {
+    color:black;
+}

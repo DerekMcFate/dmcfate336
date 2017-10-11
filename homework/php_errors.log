@@ -67,3 +67,59 @@
 [20-Sep-2017 05:28:04 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/dmcfate336/homework/homework2/functions.php on line 44
 [20-Sep-2017 05:28:04 UTC] PHP Stack trace:
 [20-Sep-2017 05:28:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework2/index.php:0
+[11-Oct-2017 02:59:10 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:10 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:10 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:11 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:11 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:11 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:12 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:12 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:12 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:12 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:12 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:12 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:13 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:13 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:13 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:14 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:14 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:14 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:14 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:14 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:14 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:15 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:15 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:15 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:15 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:15 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:15 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:16 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:16 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:16 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:16 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:16 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:16 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:17 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:17 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:17 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:17 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:17 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:17 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[11-Oct-2017 02:59:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php on line 3
+[11-Oct-2017 02:59:18 UTC] PHP Stack trace:
+[11-Oct-2017 02:59:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
+[11-Oct-2017 02:59:18 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
