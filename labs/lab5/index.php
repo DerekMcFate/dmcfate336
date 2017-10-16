@@ -43,20 +43,29 @@ function displayDevices(){
 
          }
          
-        if (!empty($_GET['deviceType'])) {
+        if (!empty($_GET['deviceType']) && $_GET['deviceType'] != "") {
             
             //The following query allows SQL injection due to the single quotes
             //$sql .= " AND deviceName LIKE '%" . $_GET['deviceName'] . "%'";
   
             $sql .= " AND deviceType = :dType"; //using named parameters
-            $namedParameters[':dType'] =   $_GET['deviceType'] ;
+            $namedParameters[':dType'] = $_GET['deviceType'] ;
 
          }     
          
          if (isset($_GET['available'])) {
-             
+             $sql .= " AND status = :checked";
+             $namedParameters[':checked'] = 'A';
          }
-        
+         
+         if(isset($_GET['orderBy'])) {
+             $sql .= " ORDER BY ";
+             if($_GET['orderBy'] == 'price') {
+                 $sql .= "price";
+             } else if($_GET['orderBy'] == 'name') {
+                 $sql .= "deviceName";
+             }
+         }
         
         
     }//endIf (isset)
@@ -86,16 +95,20 @@ function displayDevices(){
 <html>
     <head>
         <title>Lab 5: Device Search </title>
+        <style>
+            @import url("css/styles.css");
+        </style>
     </head>
     <body>
         
         <h1> Technology Center: Checkout System </h1>
         
+        <div id="formId">
         <form>
             Device: <input type="text" name="deviceName" placeholder="Device Name"/>
             Type: 
             <select name="deviceType">
-                <option>Select One</option>
+                <option value="">Select One</option>
                 <?=getDeviceTypes()?>
             </select>
             
@@ -113,13 +126,17 @@ function displayDevices(){
             
             <input type="submit" value="Search!" name="submit" >
         </form>
-        
+        </div>
         
         <hr>
-        
-        <?=displayDevices()?>
-        
-        <iframe name="checkoutHistory" width="400" height="400"></iframe>
+        <div id="wrapper">
+            <div id="left">
+                <?=displayDevices()?>
+            </div>
+            <div id="right">
+                <iframe name="checkoutHistory" width="400" height="400"></iframe>
+            </div>
+        </div>
         
 
     </body>

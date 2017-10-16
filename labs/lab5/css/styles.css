@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+#formId {
+    display: block;
+    text-align: center;
+}
+
+iframe {
+    float: right;
+    height: 700px;
+}
+
+#wrapper {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+#left {
+    display: inline-block;
+}
+
+#right {
+    display: inline-block;
+    padding: 10px;
+}
+
+body {
+    background-color: grey;
+}

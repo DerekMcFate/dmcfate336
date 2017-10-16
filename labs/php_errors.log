@@ -215,3 +215,15 @@ Stack trace:
 #1 /home/ubuntu/workspace/dmcfate336/labs/lab5/checkoutHistory.php(41): displayCheckoutHistory()
 #2 {main}
   thrown in /home/ubuntu/workspace/dmcfate336/labs/lab5/checkoutHistory.php on line 18
+[16-Oct-2017 04:04:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/dmcfate336/labs/lab5/index.php:81
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/labs/lab5/index.php(81): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/dmcfate336/labs/lab5/index.php(135): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/labs/lab5/index.php on line 81
+[16-Oct-2017 04:15:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/dmcfate336/labs/lab5/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/labs/lab5/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/dmcfate336/labs/lab5/index.php(131): displayDevices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/labs/lab5/index.php on line 77
