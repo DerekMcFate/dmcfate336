@@ -13,3 +13,18 @@
 [11-Oct-2017 20:29:22 UTC] PHP Stack trace:
 [11-Oct-2017 20:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/practice/sql_joins.php:0
 [11-Oct-2017 20:29:22 UTC] PHP   2. getUsersAndDepartments() /home/ubuntu/workspace/dmcfate336/practice/sql_joins.php:59
+[20-Oct-2017 18:44:55 UTC] PHP Fatal error:  Call to undefined function selectCheck() in /home/ubuntu/workspace/dmcfate336/midterm/program1.php on line 17
+[20-Oct-2017 18:44:55 UTC] PHP Stack trace:
+[20-Oct-2017 18:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/midterm/program1.php:0
+[20-Oct-2017 18:46:03 UTC] PHP Fatal error:  Call to undefined function selectCheck() in /home/ubuntu/workspace/dmcfate336/midterm/program1.php on line 19
+[20-Oct-2017 18:46:03 UTC] PHP Stack trace:
+[20-Oct-2017 18:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/midterm/program1.php:0
+[20-Oct-2017 18:46:07 UTC] PHP Fatal error:  Call to undefined function selectCheck() in /home/ubuntu/workspace/dmcfate336/midterm/program1.php on line 19
+[20-Oct-2017 18:46:07 UTC] PHP Stack trace:
+[20-Oct-2017 18:46:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/midterm/program1.php:0
+[20-Oct-2017 18:46:09 UTC] PHP Fatal error:  Call to undefined function selectCheck() in /home/ubuntu/workspace/dmcfate336/midterm/program1.php on line 19
+[20-Oct-2017 18:46:09 UTC] PHP Stack trace:
+[20-Oct-2017 18:46:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/midterm/program1.php:0
+[20-Oct-2017 18:46:33 UTC] PHP Fatal error:  Call to undefined function selectCheck() in /home/ubuntu/workspace/dmcfate336/midterm/program1.php on line 19
+[20-Oct-2017 18:46:33 UTC] PHP Stack trace:
+[20-Oct-2017 18:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/midterm/program1.php:0

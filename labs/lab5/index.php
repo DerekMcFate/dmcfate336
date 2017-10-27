@@ -15,9 +15,7 @@ function getDeviceTypes() {
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
     foreach ($records as $record) {
-        
         echo "<option> "  . $record['deviceType'] . "</option>";
-        
     }
 }
 
