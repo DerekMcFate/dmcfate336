@@ -1,0 +1,36 @@
+#header {
+    text-align: center;
+}
+
+body {
+    background-color: #396173;
+    font-family: 'Cuprum', sans-serif;
+    color: white;
+}
+
+span {
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+input {
+    font-size: 150%;
+}
+
+form {
+    width: 600px;
+}
+
+#fields {
+    padding-top: 50px;
+    position: absolute;
+    left: 35%;
+}
+
+#logBtn {
+    text-align: center;
+}

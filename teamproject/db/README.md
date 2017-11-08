@@ -1,0 +1,1 @@
+This file will probably contain either the necessary sql statements or the database's .sql file. If it has the .sql file, just import it so yoiu can work on the necessary php functions.
