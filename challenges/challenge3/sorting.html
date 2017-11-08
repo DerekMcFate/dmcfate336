@@ -7,13 +7,13 @@
     <body>
         <h1>Sorting Numbers</h1>
         <h2>Enter 3 numbers from 1 to 50</h2>
-        <form name="myForm" onsubmit="return validateForm()" method="post">
+        <form name="myForm" method="post">
             Number 1:<input style="width: 50px;" type="text" name="one"><br>
         </form>
-        <form name="myForm1" onsubmit="return validateForm()" method="post">
+        <form name="myForm1" method="post">
             Number 2:<input style="width: 50px;" type="text" name="two"><br>
         </form>
-        <form name="myForm2" onsubmit="return validateForm()" method="post">
+        <form name="myForm2" method="post">
             Number 3:<input style="width: 50px;" type="text" name="three"><br>
         </form>
         <form  method="post" onsubmit="return validateForm()">
@@ -21,6 +21,9 @@
         </form>
         
         <script>
+        function sortNumber(a, b) {
+            return a - b;
+        }
             function validateForm() {
                 var x = document.forms['myForm']['one'].value;
                 var y = document.forms['myForm1']['two'].value;
@@ -30,9 +33,9 @@
                     return false;
                 }
                 var numbers = [x, y, z];
-                numbers.sort();
-                document.write("<h1>The biggest number is " + numbers[2] + "</h1>")
-                document.write("<h2>The numbers in ascending order are: "+ x + ", " + y + ", " + z + "</h2>");
+                numbers.sort(sortNumber);
+                document.write("<h1>The biggest number is " + numbers[2] + "</h1>");
+                document.write("<h2>The numbers in ascending order are: "+ numbers[0] + ", " + numbers[1] + ", " + numbers[2] + "</h2>");
 
             }
         </script>
