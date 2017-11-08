@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Number Sorter</title>
+        
+    </head>
+    <body>
+        <h1>Sorting Numbers</h1>
+        <h2>Enter 3 numbers from 1 to 50</h2>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            Number 1:<input style="width: 50px;" type="text" name="one"><br>
+        </form>
+        <form name="myForm1" onsubmit="return validateForm()" method="post">
+            Number 2:<input style="width: 50px;" type="text" name="two"><br>
+        </form>
+        <form name="myForm2" onsubmit="return validateForm()" method="post">
+            Number 3:<input style="width: 50px;" type="text" name="three"><br>
+        </form>
+        <form  method="post" onsubmit="return validateForm()">
+            <input type="submit" value="Sort!" name="sortBtn">
+        </form>
+        
+        <script>
+            function validateForm() {
+                var x = document.forms['myForm']['one'].value;
+                var y = document.forms['myForm1']['two'].value;
+                var z = document.forms['myForm2']['three'].value;
+                if(x == "" || y == "" || z == "") {
+                    alert("Form must be filled out");
+                    return false;
+                }
+                var numbers = [x, y, z];
+                numbers.sort();
+                document.write("<h1>The biggest number is " + numbers[2] + "</h1>")
+                document.write("<h2>The numbers in ascending order are: "+ x + ", " + y + ", " + z + "</h2>");
+
+            }
+        </script>
+
+    </body>
+</html>
