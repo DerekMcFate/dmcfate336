@@ -38,6 +38,15 @@
                <img src="img/stick_0.png" id="hangImg">
             </div>
         </div>
+        
+        <div id="won">
+            <h2>You Won!</h2>
+            <button class="replayBtn btn btn-success">Play Again</button>
+        </div>
+        <div id="lost">
+            <h2>You Lost!</h2>
+            <button class="replayBtn btn btn-warning">Play Again</button>
+        </div>
 
     <script>
     
@@ -60,7 +69,11 @@
             var selectedHint = "";
             var board = "";
             var remainingGuesses = 6;
-            var words = ["snake", "monkey", "beetle", "octopus", "horse"];
+            var words = [{ word: "snake", hint: "It's a reptile" },
+                         { word: "monkey", hint: "It's a mammal" },
+                         { word: "beetle", hint: "It's an insect" },
+                         { word: "octopus", hint: "It's a cephalopod" },
+                         { word: "horse", hint: "It's a mammal" }];
             var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
                             'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
                             'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -79,14 +92,20 @@
             
             function pickWord() {
                 var randomInt = Math.floor( Math.random() * words.length );
-                selectedWord = words[randomInt].toUpperCase();
+                selectedWord = words[randomInt].word.toUpperCase();
+                selectedHint = words[randomInt].hint;
                 //console.log(selectedWord);
             }
             
             function updateBoard() {
+                $("#word").empty();
+                
                 for (var letter of board) {
                     document.getElementById("word").innerHTML += letter + " ";
                 }
+                
+                $("#word").append("<br />");
+                $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
             }
             
             function initBoard() {
@@ -119,10 +138,48 @@
                 
                 if(positions.length > 0) {
                     updateWord(positions, letter);
+                    if(!board.includes('_')) {
+                        endGame(true);
+                    }
                 } else {
                     remainingGuesses--;
-                    $("hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png");
+                    updateMan();
                 }
+                
+                if(remainingGuesses <= 0) {
+                    endGame(false);
+                }
+            }
+            
+            function updateWord(positions, letter) {
+                for(var pos of positions) {
+                    board = replaceAt(board, pos, letter);
+                }
+                
+                updateBoard();
+            }
+            
+            function replaceAt(str, index, value) {
+                return str.substr(0, index) + value + str.substr(index + value.length);
+            }
+            
+            function updateMan() {
+                $("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png");
+            }
+            
+            function endGame(win) {
+                $("#letters").hide();
+                
+                if(win) {
+                    $("#won").show();
+                } else {
+                    $("#lost").show();
+                }
+            }
+            
+            function disableButton(btn) {
+                btn.prop("disabled", true);
+                btn.attr("class", "btn btn-danger");
             }
             
             //Events
@@ -130,7 +187,11 @@
             $("button").click(function() {
                 
                 checkLetter($(this).attr("id"));
-                
+                disableButton($(this));
+            });
+            
+            $(".replayBtn").on("click", function() {
+                location.reload();
             });
             
         </script>
