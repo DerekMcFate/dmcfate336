@@ -1,0 +1,41 @@
+Homework 5: AJAX / API
+
+Use any existing API and display data using AJAX and jQuery.
+Store and display the values used as a parameters when using the API
+Optionally, you can create your own API.
+
+Rubric:
+
+1. Web page includes an HTML form with at least two form elements  (10 points)
+
+2. Web page uses an API and sends at least one value typed by the user  (10 points)
+
+3. Web page displays at least three values returned by the API, below the HTML form   (15 points)
+
+4. At least one value typed by the user is stored in a database using AJAX (15 points)
+
+5. The value typed by the user and the number of times the same value has been typed are displayed right below the HTML form (15 points)
+
+6. The history of the value typed by the user is displayed below the form too. The history includes the date and time the value was typed. Hint:  Use a "timestamp" field type in the database table. Its value is automatically updated when a record is inserted. (15 points)
+
+7. Web page has a nice design (uses Bootstrap or at least 20 CSS rules) (10 points)
+
+8. There is a clickable link to the assignment in Heroku (10 points)
+
+Example: if using the Walmart API and searching for "wii"  for the first time on Nov 18, upon clicking on a "Search" button, an AJAX call should return something like:
+
+The keyword "wii" has been searched 1 time(s)
+Search History:
+Nov 18, 2017  10:30am
+
+If searching for the same value (wii) once every day for the following two days, the last search should display something like:
+
+The keyword "wii" has been searched 4 time(s) 
+Search History:
+Nov 18, 2017  10:30am
+Nov 19, 2017  12:27pm
+Nov 20, 2017  11:13am
+
+In other words, you'll need to insert the value into a database table and then retrieve and display the number of times it's being used and the time stamps when the values where added to the database.
+
+ You and your buddy can get two extra points in the final exam if both of you review each other's assignment and include the following badge as part of it.
