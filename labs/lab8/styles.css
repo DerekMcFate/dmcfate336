@@ -1,0 +1,40 @@
+#userTrue {
+    font-size: .9em;
+    background-color: white;
+    border-radius: 5px;
+    color: green;
+}
+
+#userFalse {
+    font-size: .9em;
+    background-color: white;
+    border-radius: 5px;
+    color: red;
+}
+
+body {
+    background-color: black;
+}
+
+fieldset {
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 25px;
+    font-family: 'Vollkorn SC', serif;
+    background-color: grey;
+}
+
+legend {
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#submitButton {
+    font-size: 1em;
+    font-family: 'Spectral SC', serif;
+}
