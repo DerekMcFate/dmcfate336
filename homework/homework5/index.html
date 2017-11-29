@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>Elevation Record</title>
+        <meta charset="utf-8">
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <script src="http://code.jquery.com/jquery.min.js"></script>
         <script>
-            
+            function getZip() {
+                $.ajax({
+                
+                    type: "GET",
+                    url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                    dataType: "json",
+                    data: { "zip": $("#zip").val() },
+                    success: function(data,status) {
+                        if(data) {
+                        $("#city").html(data.city);
+                        $("#lat").html(data.latitude);
+                        $("#long").html(data.longitude);
+                        } else {
+                            $("#city").html("");
+                            $("#lat").html("");
+                            $("#long").html("");
+                        }
+                        getElevation(data.latitude, data.longitude);
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
+                    //alert(status);
+                    }
+                
+                });
+            }
+            function getElevation(lat, lon) {
+                $.ajax({
+                
+                    type: "GET",
+                    url: "http://open.mapquestapi.com/elevation/v1/profile?key=Vlq8QVOw9TUzk7RCFHN94RsTjL4QAp9j&shapeFormat=raw&latLngCollection="+lat+","+lon,
+                    dataType: "json",
+                    success: function(data,status) {
+                        $("#elevator").html(data['elevationProfile'][0]['height'] + " meters");
+                        addSearch();
+                    },
+                    complete: function(data,status) { //optional, used for debugging purposes
+                    //alert(status);
+                    }
+                
+                });
+            }
+            function addSearch() {
+                $.ajax({
+                    
+                    type: "GET",
+                    url: "storeCity.php",
+                    //dataType: "json",
+                    data: { 'city': $('#city').val(), 'zip': $('#zip').val(), 'elevation': $('#elevator').val() },
+                    success: function(data, status) {
+                        alert(data);
+                    },
+                    complete: function(data, status) {
+                        alert(status);
+                    }
+                });
+            }
         </script>
     </head>
     <body>
+        <form onsubmit="return false">
+            Enter a Zip Code:<br>
+            <input type="text" placeholder="Search" id="zip"><br>
+            <input type="submit" value="Submit" id="button" onclick="getZip()"><br>
+        </form>
+        City: <span id="city"></span>
+            <br>
+            Latitude: <span id="lat"></span>
+            <br>
+            Longitude:<span id="long"></span>
+            <br>
+            Current Elevation:<span id="elevator"></span>
+            <br>
+            Prior Searches:<br>
+            <div id="searches"></div>
         <!--<img src="img/buddy_verified.png" height="100px" width="100px">-->
     </body>
 </html>

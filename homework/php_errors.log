@@ -123,3 +123,179 @@
 [11-Oct-2017 02:59:18 UTC] PHP Stack trace:
 [11-Oct-2017 02:59:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:0
 [11-Oct-2017 02:59:18 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/dmcfate336/homework/homework3/index.php:3
+[29-Nov-2017 09:30:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode')
+        VALUES
+        (':zipcode')' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:30:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode')
+        VALUES
+        (':zipcode')' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:30:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode')
+        VALUES
+        (':zipcode')' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:31:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode')
+        VALUES
+        (':zipcode')' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:31:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode')
+        VALUES
+        (':zipcode')' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:32:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode')
+        VALUES
+        (':zipcode')' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:35:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode')
+        VALUES
+        (':zipcode')' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:38:33 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:38:33 UTC] PHP Stack trace:
+[29-Nov-2017 09:38:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:38:35 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:38:35 UTC] PHP Stack trace:
+[29-Nov-2017 09:38:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:39:00 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:39:00 UTC] PHP Stack trace:
+[29-Nov-2017 09:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:39:32 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:39:32 UTC] PHP Stack trace:
+[29-Nov-2017 09:39:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:40:13 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:40:13 UTC] PHP Stack trace:
+[29-Nov-2017 09:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:41:14 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:41:14 UTC] PHP Stack trace:
+[29-Nov-2017 09:41:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:41:41 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:41:41 UTC] PHP Stack trace:
+[29-Nov-2017 09:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:43:35 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:43:35 UTC] PHP Stack trace:
+[29-Nov-2017 09:43:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:43:53 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:43:53 UTC] PHP Stack trace:
+[29-Nov-2017 09:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:48:56 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:48:56 UTC] PHP Stack trace:
+[29-Nov-2017 09:48:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:49:00 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:49:00 UTC] PHP Stack trace:
+[29-Nov-2017 09:49:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:49:02 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:49:02 UTC] PHP Stack trace:
+[29-Nov-2017 09:49:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:49:04 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:49:04 UTC] PHP Stack trace:
+[29-Nov-2017 09:49:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:49:50 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:49:50 UTC] PHP Stack trace:
+[29-Nov-2017 09:49:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:49:55 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:49:55 UTC] PHP Stack trace:
+[29-Nov-2017 09:49:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:51:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode', 'date')
+        VALUES
+        (89425)' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:51:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipCode', 'date')
+        VALUES
+        (89425)' at line 2' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 09:52:11 UTC] PHP Fatal error:  Call to undefined function getElementById() in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 5
+[29-Nov-2017 09:52:11 UTC] PHP Stack trace:
+[29-Nov-2017 09:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:0
+[29-Nov-2017 09:55:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 10:03:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'zipCode' cannot be null' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 10:07:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'zipCode' cannot be null' in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/Chomework5/getAllRecords.php on line 28
+[29-Nov-2017 10:13:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'city' cannot be null' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 12
+[29-Nov-2017 10:16:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'city' cannot be null' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 12
+[29-Nov-2017 10:16:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'city' cannot be null' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 12
+[29-Nov-2017 10:20:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 15
+[29-Nov-2017 10:27:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 15
+[29-Nov-2017 10:30:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 15
+[29-Nov-2017 10:33:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 15
+[29-Nov-2017 10:35:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'elevation' cannot be null' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(24): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 24
+[29-Nov-2017 10:54:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(24): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 24
+[29-Nov-2017 10:55:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php(24): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/homework/homework5/storeCity.php on line 24
