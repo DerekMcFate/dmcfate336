@@ -1,0 +1,31 @@
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: orange;
+}
+
+form {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    text-align: center;
+}
+
+#sizeUp {
+    border-radius: 25px;
+    
+}
+
+#title {
+    color: red;
+    border: dotted;
+    border-color: black;
+}
+
+input {
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+}

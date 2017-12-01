@@ -16,6 +16,7 @@
 <html>
     <head>
         <title>Lab 10: Photo Gallery</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         
@@ -34,13 +35,13 @@
         </script>
     </head>
     <body>
-        <h2>Photo Gallery</h2>
+        <h2 id="title">Photo Gallery</h2>
         
         <form method="POST" enctype="multipart/form-data"> 
 
 
         <input type="file" name="myFile" /> 
-        
+        <br><br>
         <input type="submit" value="Upload File!" />
 
     </form>
