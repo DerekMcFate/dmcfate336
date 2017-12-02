@@ -577,3 +577,9 @@ Stack trace:
 [01-Dec-2017 22:34:03 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 63
 [01-Dec-2017 22:34:03 UTC] PHP Stack trace:
 [01-Dec-2017 22:34:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[02-Dec-2017 04:06:56 UTC] PHP Fatal error:  Call to undefined function checkIfSelected() in /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php on line 63
+[02-Dec-2017 04:06:56 UTC] PHP Stack trace:
+[02-Dec-2017 04:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab4/index.php:0
+[02-Dec-2017 04:21:47 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/dmcfate336/labs/lab9/index.php on line 23
+[02-Dec-2017 04:21:47 UTC] PHP Stack trace:
+[02-Dec-2017 04:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/dmcfate336/labs/lab9/index.php:0

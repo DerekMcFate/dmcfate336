@@ -12,6 +12,10 @@
             body {
                 text-align: center;
             }
+            #carousel-example-generic {
+                 margin: 0 auto;   
+                 width: 700px;
+            }
         </style>
     </head>
     <body>
