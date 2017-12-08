@@ -35,9 +35,11 @@
         });
         }
         else{
+            var city = $("#citySelect").val();
+            city = city.replace(" ", "+");
             $.ajax({
                 type: "GET",
-                url: "http://api.openweathermap.org/data/2.5/forecast?q="+$("#citySelect").val()+",us&APPID=b3f18962eb4060c924e7ab7aa9f57cfe",
+                url: "http://api.openweathermap.org/data/2.5/forecast?q="+city+",us&APPID=b3f18962eb4060c924e7ab7aa9f57cfe",
                 dataType: "json",
                 success: function(data,status){
                     $('#forecastHold').append("<div id='"+$("#citySelect").val()+count+"' class='row'></div>");
