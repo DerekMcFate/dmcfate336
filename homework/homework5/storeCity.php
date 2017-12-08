@@ -1,6 +1,6 @@
 <?php
 include '../../dbConnection.php';
-$conn = getDatabaseConnection();
+$conn = getDatabaseConnection("tcp");
 
 // $sql = "SELECT *
 //         FROM tc_search

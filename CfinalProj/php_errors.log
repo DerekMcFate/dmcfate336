@@ -1,0 +1,167 @@
+[07-Dec-2017 23:06:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 15
+[07-Dec-2017 23:07:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 15
+[07-Dec-2017 23:09:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 15
+[07-Dec-2017 23:10:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 15
+[07-Dec-2017 23:11:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 15
+[07-Dec-2017 23:13:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 15
+[07-Dec-2017 23:16:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 15
+[07-Dec-2017 23:21:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[07-Dec-2017 23:24:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[07-Dec-2017 23:26:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[07-Dec-2017 23:29:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[07-Dec-2017 23:30:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''zipcode','date', 'ipaddress') 
+            VALUES
+            (':zipcode', 'CUR' at line 2' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[07-Dec-2017 23:38:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''weather_data'
+            ('zipcode','date', 'ipaddress') 
+            VALUES
+ ' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[07-Dec-2017 23:38:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''weather_data'
+            ('zipcode','date', 'ipaddress') 
+            VALUES
+ ' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[07-Dec-2017 23:44:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''weather_data'
+            ('id','zipcode','date', 'ipaddress') 
+            VAL' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[08-Dec-2017 02:04:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''weather_data'
+            ('id','zipcode','date', 'ipaddress') 
+            VAL' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[08-Dec-2017 02:07:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''weather_data'
+            ('id','zipcode','date', 'ipaddress') 
+            VAL' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 17
+[08-Dec-2017 02:13:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''weather_data'
+        ('id','zipcode','date', 'ipaddress') 
+        VALUES
+    ' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/addUserData.php on line 22
+[08-Dec-2017 04:10:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+            FROM `location_info`
+            WHERE `zipcode` = '93933'' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php on line 15
+[08-Dec-2017 04:11:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+            FROM `location_info`
+            WHERE `zipcode` = '93933'' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php on line 15
+[08-Dec-2017 04:12:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+            FROM `location_info`
+            WHERE `zipcode` = '93933'' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php on line 15
+[08-Dec-2017 04:14:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+            FROM `location_info`
+            WHERE `zipcode` = '93933'' at line 1' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/deleteZip.php on line 15
+[08-Dec-2017 05:25:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 3' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/getCityList.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/getCityList.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/getCityList.php on line 10
+[08-Dec-2017 05:27:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 3' in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/getCityList.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/dmcfate336/CfinalProj/api/getCityList.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/dmcfate336/CfinalProj/api/getCityList.php on line 10

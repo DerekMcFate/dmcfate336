@@ -16,7 +16,7 @@
                     url: "http://api.openweathermap.org/data/2.5/weather?zip="+$("#zip").val()+"&APPID=b3f18962eb4060c924e7ab7aa9f57cfe",
                     dataType: "json",
                     success: function(data,status) {
-                    var fahrenheit = parseInt(9/5*(data.main.temp - 273) + 32)
+                    var fahrenheit = parseInt(9/5*(data.main.temp - 273) + 32);
                     $("#weather").html("The weather in "+data.name+" is " + data.weather[0]["main"]+"<br>");
                     $("#weather").append("Wind Speed: "+data.wind.speed+" Meters Per Second<br>");
                     $("#weather").append("Temperature: "+fahrenheit+" F <br>");

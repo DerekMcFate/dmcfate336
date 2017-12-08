@@ -59,10 +59,8 @@ function loginError() {
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Elemental Catalog Login</title>
+        <title>User Login</title>
         <meta charset="utf-8" />
-        <link href="login.css" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Cuprum:400i" rel="stylesheet"> 
     </head>
     <body>
         <div id="header">

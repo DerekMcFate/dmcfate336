@@ -1,0 +1,71 @@
+#loginHead {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+form {
+    text-align: center;
+}
+
+#loginError {
+    text-align: center;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+#chatHead {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+}
+
+#allUsers {
+    border: double;
+    width: 250px;
+    height: 800px;
+    float: left;
+    padding: 15px;
+}
+
+#admin {
+    color: purple;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#user {
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#addUserTitle, #deleteUserTitle {
+    text-align: center;
+}
+
+#postMessage {
+    position: absolute;
+    float: right;
+}
+
+#chat {
+    float:left;
+    width: 500px;
+    height: 500px;
+}
+
+textarea {
+    resize: none;
+}
+
+fieldset {
+    text-align: center;
+}
+
+.chatMessage {
+    border-style: solid;
+    border-width: 1px;
+}
+
+#chatContainer, #textBox {
+    float:left;
+    width: 800px;
+}
