@@ -2,6 +2,7 @@
     include 'inc/header.php';
 ?>
 <script>
+    var count = 0;
     function getCities() {
         $.ajax({
             type: "GET",
@@ -23,12 +24,12 @@
             dataType: "json",
             success: function(data,status){
             addLocation();
-            $('#forecastHold').append("<div id='"+$("#zipcode").val()+"' class='row'></div>");
-            $("#"+$("#zipcode").val()).append("<p id=cityName>"+data.city.name+"</p>")
+            $('#forecastHold').append("<div id='"+$("#zipcode").val()+count+"' class='row'></div>");
+            $("#"+$("#zipcode").val()+count).append("<p id=cityName>"+data.city.name+"</p>")
             for(var i = 0;i<data.list.length;i+=8){
-                $("#"+$("#zipcode").val()).append("<div class='col-sm'><p>"+data.list[i]["dt_txt"]+"</p><img src='http://openweathermap.org/img/w/"+data.list[i]["weather"][0]["icon"]+".png'><p>Temp: "+parseInt(9/5*(data.list[i]["main"]["temp"] - 273) + 32) +"F°</p></div>");
+                $("#"+$("#zipcode").val()+count).append("<div class='col-sm'><p>"+data.list[i]["dt_txt"]+"</p><img src='http://openweathermap.org/img/w/"+data.list[i]["weather"][0]["icon"]+".png'><p>Temp: "+parseInt(9/5*(data.list[i]["main"]["temp"] - 273) + 32) +"F°</p></div>");
             }
-            ("#"+$("#zipcode").val()).append("<hr>")
+            ("#"+$("#zipcode").val()+count).append("<hr>")
          }
            
         });
@@ -39,14 +40,15 @@
                 url: "http://api.openweathermap.org/data/2.5/forecast?q="+$("#citySelect").val()+",us&APPID=b3f18962eb4060c924e7ab7aa9f57cfe",
                 dataType: "json",
                 success: function(data,status){
-                    $('#forecastHold').append("<div id='"+$("#citySelect").val()+"' class='row'></div>");
-                    $("#"+$("#citySelect").val()).append("<p id=cityName>"+data.city.name+"</p>")
+                    $('#forecastHold').append("<div id='"+$("#citySelect").val()+count+"' class='row'></div>");
+                    $("#"+$("#citySelect").val()+count).append("<p id=cityName>"+data.city.name+"</p>")
                     for(var i = 0;i<data.list.length;i+=8){
-                        $("#"+$("#citySelect").val()).append("<div class='col-sm'><p>"+data.list[i]["dt_txt"]+"</p><img src='http://openweathermap.org/img/w/"+data.list[i]["weather"][0]["icon"]+".png'><p>Temp: "+parseInt(9/5*(data.list[i]["main"]["temp"] - 273) + 32) +"F°</p></div>");
+                        $("#"+$("#citySelect").val()+count).append("<div class='col-sm'><p>"+data.list[i]["dt_txt"]+"</p><img src='http://openweathermap.org/img/w/"+data.list[i]["weather"][0]["icon"]+".png'><p>Temp: "+parseInt(9/5*(data.list[i]["main"]["temp"] - 273) + 32) +"F°</p></div>");
                     }
                  }
             });
         }
+        count++;
     }
     function addLocation(){
         $.ajax({
@@ -60,9 +62,13 @@
     
     $(document).ready(  function(){
         getCities();
-        $('.formdata').change( function(){
+        $('#citySelect').change( function(){
+            $("#zipcode").val('');
             getWeather();
-            //$("#default").prop('selected',true);
+        });
+        $('#zipcode').change(function() {
+            $("#default").prop('selected',true);
+            getWeather();
         });
     });
 </script>
